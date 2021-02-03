@@ -1,9 +1,14 @@
 import React from 'react';
+import Home from './pages/Home';
+import Nav from './components/Nav';
+import GlobalStyle from './components/GlobalStyle';
 
 function App() {
   return (
     <div className="App">
-      <h1>Aura</h1>
+      <GlobalStyle />
+      <Nav />
+      <Home />
     </div>
   );
 }
